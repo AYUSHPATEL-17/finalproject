@@ -1,0 +1,438 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ------Header-Start-------- */
+
+.header_body {
+  border-radius: 20px;
+  background-color: #F4F0EC;
+  box-shadow: 0px 4px 250px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.font_header {
+  color: #5F4C3B;
+  text-align: center;
+  font-family: Sarabun;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* ------Header-End-------- */
+
+/* -----------Main-Banner-Start------------ */
+
+.main_back {
+  background-image: url(../../public/img/main_back.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_p {
+  color: #FFF;
+  font-family: Sarabun;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.375rem;
+  text-transform: uppercase;
+  top: 19.25rem;
+  left: 15rem;
+
+}
+
+.main_head {
+  color: #FFF;
+  font-family: DM Serif Display;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.head_1 {
+  top: 20.5rem;
+  left: 18rem;
+}
+
+.head_2 {
+  top: 26rem;
+  right: 5%;
+}
+
+.round_pic1 {
+  background-image: url(../../public/img/B.png);
+  width: 25.86056rem;
+  height: 32.3125rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 15%;
+  right: 0.5%;
+  z-index: 1;
+}
+
+.round_pic2 {
+  background-image: url(../../public/img/C.png);
+  width: 48.86625rem;
+  height: 21.4375rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: -25%;
+  left: 10%;
+  z-index: 1;
+}
+
+/* -----------Main-Banner-End------------ */
+
+/* --------SUB_Main_ Start------- */
+
+.sub_main {
+  background-image: url(../../public/img/main_back.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.sub_h {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* 3.90625rem */
+}
+
+.sub_p {
+  color: #AC6231;
+  font-family: Jost;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 2.0625rem */
+  letter-spacing: 0.01375rem;
+}
+
+.sub_p2 {
+  color: #14413E;
+  text-align: center;
+
+  /* Heading Medium/52 */
+  font-family: Newsreader;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4rem;
+  /* 123.077% */
+  text-transform: capitalize;
+}
+
+
+
+/* --------SUB_Main_ ENd------- */
+
+/* -------SUb_menu-Start---------- */
+
+.sub_menu_head2 {
+  color: #14413E;
+
+  /* Elements heading */
+  font-family: Newsreader;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.text-r {
+  text-align: right !important;
+}
+
+.wifi {
+  background: transparent;
+}
+
+/* -------SUb_menu-End---------- */
+
+/* ------- Home--About---Start---------*/
+
+.ab {
+  background-image: url(../../public/img/Rectangle\ 133.png);
+  /* background-image: url(../../public/img/Rectangle\ 14.png); */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ab_h {
+  color: #AC6231;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  /* 133.333% */
+  letter-spacing: 0.75rem;
+  text-transform: uppercase;
+}
+
+.ab_p1 {
+  color: #14413E;
+  text-align: center;
+  font-family: Newsreader;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.5rem;
+  /* 138.462% */
+  text-transform: capitalize;
+}
+
+.ab_p2,
+.ab_p3 {
+  color: #333;
+  text-align: center;
+
+  /* Discription */
+  font-family: Sarabun;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.75rem;
+  /* 183.333% */
+  text-transform: capitalize;
+}
+
+.pic_14 {
+  top: 10%;
+  left: 90%;
+  z-index: 2;
+  /* width: 300px; */
+  width: 21.6875rem;
+  height: 30.55613rem;
+
+}
+
+.pic_15 {
+  bottom: 0%;
+  right: 90%;
+  z-index: 2;
+  width: 21.375rem;
+  height: 30.24325rem;
+
+}
+
+.gallery {
+  width: 100%;
+  height: 100%;
+}
+
+.margin_l {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+/* ------- Home--About--END--------*/
+
+/* -----------MEnu-BAck--Start------- */
+.menu_back {
+  background-image: url(../../public/img/sepia-plasterboard-texture\ 2.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.menu_h {
+  color: #14413E;
+  text-align: left;
+  font-family: Newsreader;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.375rem;
+  /* 134.615% */
+  text-transform: capitalize;
+}
+
+
+/* -----------MEnu-BAck--ENd------- */
+
+/* ---------MEnu-Start------------ */
+.menu_card {
+  background-color: transparent;
+}
+
+.menu_sub_head {
+  color: #14413E;
+
+  /* Elements heading */
+  font-family: Newsreader;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* ---------MEnu-End------------ */
+
+/* -------Restrorent_start------------ */
+
+.r_img1 {
+  position: relative !important;
+
+  width: 100%;
+  z-index: 2;
+}
+
+.r_img2 {
+
+  width: 100%;
+
+}
+
+.restro_head {
+  color: #14413E;
+  text-align: center;
+
+  /* Heading Medium/52 */
+  font-family: Newsreader;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4rem;
+  /* 123.077% */
+  text-transform: capitalize;
+}
+
+.r_img3 {
+  top: 27%;
+  left: 27%;
+  /* width: 100%;
+  height: 100%; */
+  width: 38.38925rem;
+  height: 33.78606rem;
+  position: absolute !important;
+  z-index: -1;
+  padding: 0 0;
+}
+
+/* -------Restrorent_End------------ */
+/* -------Staf-Start------------- */
+
+
+.staf_front {
+  z-index: 10;
+  top: 24%;
+  left: 5%;
+}
+
+
+
+/* -------Staf-End------------- */
+
+
+/* --------Location--Start--------- */
+
+.ab_hh {
+  color: #AC6231;
+  text-align: left;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  /* 133.333% */
+  letter-spacing: 0.75rem;
+  text-transform: uppercase;
+}
+
+.ab_p11 {
+  color: #14413E;
+  text-align: left;
+  font-family: Newsreader;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.5rem;
+  /* 138.462% */
+  text-transform: capitalize;
+}
+
+.ab_p22,
+.ab_p3 {
+  color: #333;
+  text-align: left;
+
+  /* Discription */
+  font-family: Sarabun;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.75rem;
+  /* 183.333% */
+  text-transform: capitalize;
+}
+
+/* --------Location--End--------- */
+/* --------f00ter Start-------- */
+
+.f00t {
+  background-image: url(../../public/footer_img/foot_text.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+}
+
+.f_text {
+  color: #5F4C3B;
+  text-align: center;
+  font-family: Sarabun;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3;
+  text-transform: capitalize;
+}
+
+.f_p {
+  color: #5F4C3B;
+  font-family: Sarabun;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.foot_ab {
+  width: 50%;
+
+}
+
+.foot_set {
+  top: 15%;
+  left: 0;
+}
+
+/* --------f00ter End-------- */
